@@ -109,6 +109,12 @@ hr {
     flex-direction: column;
   }
   .main-image{
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .main-image{
     max-width: 15rem;
   }
 }
