@@ -121,6 +121,7 @@ hr {
 .item {
   margin: 2rem 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .checkout-button {
@@ -151,6 +152,15 @@ hr {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   flex-direction: column;
+}
+
+@media (max-width: 60rem) {
+  .checkout-container {
+    grid-template-columns: 1fr;
+  }
+  .checkout-form {
+    grid-template-columns: 1fr;
+  }
 }
 
 .shopping-cart-form {
