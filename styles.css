@@ -75,7 +75,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  max-width: 30rem;
+  max-width: 45rem;
   margin: auto;
 }
 
@@ -204,4 +204,15 @@ hr {
 
 .main-page-button {
   float: right;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-list>a {
+  color: #aaa;
+  text-decoration: none;
 }
