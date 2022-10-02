@@ -113,12 +113,6 @@ hr {
   }
 }
 
-@media (max-width: 40rem) {
-  .main-image{
-    max-width: 15rem;
-  }
-}
-
 .item-img {
   max-width: 15rem;
   margin-right: 1rem;
@@ -221,4 +215,22 @@ hr {
 .footer-list>a {
   color: #aaa;
   text-decoration: none;
+}
+
+@media (max-width: 40rem) {
+  .main-image{
+    max-width: 20rem;
+  }
+  .success-heading {
+    font-size: 3rem;
+  }
+  .success-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .main-image{
+    max-width: 15rem;
+  }
 }
