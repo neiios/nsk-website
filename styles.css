@@ -234,3 +234,9 @@ hr {
     max-width: 15rem;
   }
 }
+
+.total-container {
+  display: flex;
+  gap: 2rem;
+  float: right;
+}
